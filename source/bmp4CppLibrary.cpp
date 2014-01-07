@@ -7,13 +7,16 @@
 //-------------------------------------------------------------------------------------------------------	
 
 #include "bmp4CppLibrary.h"
+#include <iostream>
 
-namespace bmp4
+
+
+template<class T> T List::Sign(T &v)
 {
-
-	template<class T> T List::Sign(T &v)
-	{
-		return v > 0 ? 1.f : (v < 0 ? -1.f : 0.f);
-	}
-
+	return v > 0 ? 1.f : (v < 0 ? -1.f : 0.f);
 }
+
+void checkLibraryLoaded(){
+	std::cout << "BMP4 Cpp Library loaded correctly!\n\n\n";
+}
+

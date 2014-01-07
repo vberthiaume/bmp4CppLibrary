@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bmp4CppLibrary", "bmp4CppLibrary\bmp4CppLibrary.vcxproj", "{9ECF573E-55EC-495F-A4B3-7149CBA4571C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bmp4ContainerTests", "..\bmp4ContainerTests\bmp4ContainerTests.vcxproj", "{1C0D5E24-88AB-490B-89FA-67D6D2B8C083}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9ECF573E-55EC-495F-A4B3-7149CBA4571C} = {9ECF573E-55EC-495F-A4B3-7149CBA4571C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bmp4CppLibrary", "source\bmp4CppLibrary.vcxproj", "{9ECF573E-55EC-495F-A4B3-7149CBA4571C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,6 +14,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0D5E24-88AB-490B-89FA-67D6D2B8C083}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C0D5E24-88AB-490B-89FA-67D6D2B8C083}.Debug|Win32.Build.0 = Debug|Win32
+		{1C0D5E24-88AB-490B-89FA-67D6D2B8C083}.Release|Win32.ActiveCfg = Release|Win32
+		{1C0D5E24-88AB-490B-89FA-67D6D2B8C083}.Release|Win32.Build.0 = Release|Win32
 		{9ECF573E-55EC-495F-A4B3-7149CBA4571C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9ECF573E-55EC-495F-A4B3-7149CBA4571C}.Debug|Win32.Build.0 = Debug|Win32
 		{9ECF573E-55EC-495F-A4B3-7149CBA4571C}.Release|Win32.ActiveCfg = Release|Win32

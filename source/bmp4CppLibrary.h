@@ -7,11 +7,12 @@
 //-------------------------------------------------------------------------------------------------------	
 
 
-namespace bmp4
+class List
 {
-	class List
-	{
-	public:
-		template <class T> static T Sign(T &v);
-	};
-}
+public:
+	template <class T> static T Sign(T &v);
+		
+};
+
+//simple test function to check that library is correctly loaded
+void checkLibraryLoaded();
