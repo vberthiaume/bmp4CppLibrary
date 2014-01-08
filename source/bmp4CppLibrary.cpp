@@ -8,15 +8,14 @@
 
 #include "bmp4CppLibrary.h"
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 
-
-template<class T> T List::Sign(T &v)
+void checkLibraryLoaded()
 {
-	return v > 0 ? 1.f : (v < 0 ? -1.f : 0.f);
-}
-
-void checkLibraryLoaded(){
-	std::cout << "BMP4 Cpp Library loaded correctly!\n\n\n";
+	cout << "BMP4 Cpp Library loaded correctly!\n\n\n";
+	
 }
 
