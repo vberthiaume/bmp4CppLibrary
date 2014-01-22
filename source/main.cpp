@@ -8,14 +8,62 @@
 
 #include <iostream>
 #include "bmp4CppLibrary.h"
+#include <list>
+
+using namespace std;
+
+
+void stlListTest();
+void lambdaTest();
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    //BMP4 LIBRARY
+    checkBmp4LibraryLoaded();
     
-    checkLibraryLoaded();
+    //STD LIBRARY
+    lambdaTest();
+    
+    //STL LIBRARY
+    stlListTest();
+    
     return 0;
 }
+
+void lambdaTest()
+{
+    //this simply does whatever is in the brackets
+    [] {
+        cout << "\nlambda function num1\n";
+    } ();
+    
+    
+    auto l = [] {
+        cout << "\nlambda function num2\n";
+    };
+    
+    l(); // prints lambda function num2
+}
+
+
+void stlListTest()
+{
+    //int list of 5 items all initialized to 10
+    list <int> iList( 5,10 );
+    
+    //iterators, which can be used like pointers
+    list <int>::const_iterator cb = iList.begin();
+    auto ce = iList.end(); //auto determines variable type based on initialization
+    
+    //print list content
+    cout << "\nList Content: ";
+    while ( cb != ce){
+        cout << *cb++ << " ";
+    }
+    cout << endl;
+    
+    
+}
+
+
 

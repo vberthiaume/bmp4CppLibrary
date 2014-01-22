@@ -19,7 +19,7 @@ using namespace std;
 
 
 //simple test function to check that library is correctly loaded
-void checkLibraryLoaded();
+void checkBmp4LibraryLoaded();
 
 
 //----------------------------- IMPLEMENTATION ------------------------------

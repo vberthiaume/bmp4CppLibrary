@@ -13,8 +13,8 @@
 using namespace std;
 
 
-void checkLibraryLoaded()
+void checkBmp4LibraryLoaded()
 {
-	cout << "BMP4 Cpp Library loaded correctly!\n\n\n";
+	cout << "\nBMP4 Cpp Library loaded correctly!\n";
 }
 
