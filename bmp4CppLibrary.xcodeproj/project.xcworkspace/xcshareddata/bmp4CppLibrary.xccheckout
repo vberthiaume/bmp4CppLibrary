@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9B92A0C-3272-4156-995F-EC9EE2732EAD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bmp4CppLibrary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0E17DA7C928FF5C52A928E5BB8B15831CAF97C3</key>
+		<string>https://github.com/vberthiaume/bmp4CppLibrary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bmp4CppLibrary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0E17DA7C928FF5C52A928E5BB8B15831CAF97C3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vberthiaume/bmp4CppLibrary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0E17DA7C928FF5C52A928E5BB8B15831CAF97C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0E17DA7C928FF5C52A928E5BB8B15831CAF97C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bmp4CppLibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>
